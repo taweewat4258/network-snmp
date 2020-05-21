@@ -2,7 +2,7 @@ import axios from 'axios'
 import * as qs from 'qs'
 export const runLineNotify = async messageData => {
     try {
-        const token = '0z030UoZiBz8barDQjhcTcEzwZZ7S8fr9ICrS29s8iW'
+        const token = ''
         const { data } = await axios({
             method: 'POST',
             url: 'https://notify-api.line.me/api/notify',
